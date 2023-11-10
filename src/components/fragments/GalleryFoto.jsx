@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { useEffect } from "react";
 import { AnimatePresence } from "framer-motion";
 
 
@@ -13,26 +12,32 @@ import img6 from "../../assets/img/gall1.jpg"
 
 const imgs =[
   {
+    id:1,
     img : img1,
     delayAnimate :0.2
   },
   {
+    id:2,
     img : img2,
     delayAnimate :0.4
   },
   {
+    id:3,
     img : img3,
     delayAnimate :0.6
   },
   {
+    id:4,
     img : img4,
     delayAnimate :0.8
   },
   {
+    id:5,
     img : img5,
     delayAnimate :1
   },
   {
+    id:6,
     img : img6,
     delayAnimate :1.2
   },
@@ -45,6 +50,7 @@ export default function GalleryFoto() {
         
         {imgs.map((img)=>(
           <motion.div
+          key={img.id}
           className=" md:w-1/3 "
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}

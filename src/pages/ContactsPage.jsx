@@ -3,7 +3,8 @@ import Input from "../components/elements/input/Input";
 import TextArea from "../components/elements/input/TextArea";
 import FormLayouts from "../components/layouts/FormLayouts";
 import Section from "../components/layouts/Section";
-import { AiFillPhone, AiOutlineMail } from "react-icons/Ai";
+import { MdLocalPhone} from "react-icons/md";
+import {IoMdMail} from "react-icons/io";
 import { ImLocation } from "react-icons/Im";
 import { motion } from "framer-motion";
 import { Button } from "flowbite-react";
@@ -152,7 +153,7 @@ export default function ContactPage() {
               <div className="text-slate-300 flex flex-col gap-10 w-full h-max ">
                 <div className="flex gap-5 w-full">
                   <div>
-                    <AiOutlineMail className="md:text-2xl text-lg" />
+                    <IoMdMail className="md:text-2xl text-lg" />
                   </div>
                   <p className="font-poppins md:text-lg text-sm">
                     tojoyouthcommunity@gmail.com
@@ -160,7 +161,7 @@ export default function ContactPage() {
                 </div>
                 <div className="flex gap-5 w-full">
                   <div>
-                    <AiFillPhone className="md:text-2xl text-lg" />
+                    <MdLocalPhone className="md:text-2xl text-lg" />
                   </div>
                   <p className="font-poppins md:text-lg text-sm">
                     +628 2293 3565 71
