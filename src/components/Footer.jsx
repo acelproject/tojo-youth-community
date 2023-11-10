@@ -1,4 +1,4 @@
-import { BsYoutube } from "react-icons/Bs";
+import { TbBrandYoutubeFilled } from "react-icons/tb";
 import { BiLogoInstagramAlt } from "react-icons/Bi";
 import { FaFacebookSquare } from "react-icons/Fa";
 import { Button } from "flowbite-react";
@@ -55,7 +55,7 @@ export default function Footer() {
                   duration: 1,
                 }}
               >
-                <BsYoutube />
+                <TbBrandYoutubeFilled />
               </motion.div>
             </a>
             <a href="" className="text-gray-300  gap-2 font-poppins">
