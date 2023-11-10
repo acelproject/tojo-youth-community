@@ -5,7 +5,7 @@ import FormLayouts from "../components/layouts/FormLayouts";
 import Section from "../components/layouts/Section";
 import { MdLocalPhone} from "react-icons/md";
 import {IoMdMail} from "react-icons/io";
-import { ImLocation } from "react-icons/Im";
+import { GoLocation } from "react-icons/go";
 import { motion } from "framer-motion";
 import { Button } from "flowbite-react";
 
@@ -169,7 +169,7 @@ export default function ContactPage() {
                 </div>
                 <div className="flex gap-5 w-full ">
                   <div>
-                    <ImLocation className="md:text-2xl text-lg" />
+                    <GoLocation className="md:text-2xl text-lg" />
                   </div>
                   <p className="font-poppins md:text-lg text-sm">
                     Gereja GPDI Agape, Desa Matako, Kec.Tojo Barat, Kab.Tojo
