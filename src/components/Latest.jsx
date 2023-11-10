@@ -1,9 +1,5 @@
 
 import { motion } from "framer-motion";
-
-
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/Ai";
-
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
