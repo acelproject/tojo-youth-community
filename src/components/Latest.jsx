@@ -3,6 +3,11 @@ import { motion } from "framer-motion";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
+import img1 from "./../assets/img/new1.jpg"
+import img2 from "./../assets/img/new2.jpg"
+import img3 from "./../assets/img/new3.jpg"
+import img4 from "./../assets/img/new4.jpg"
+
 export default function Latest() {
   const responsive = {
     superLargeDesktop: {
@@ -58,7 +63,7 @@ export default function Latest() {
           <div className="  ">
             <div className="md:pr-14 pr-28 w-[450px] flex flex-col gap-5">
               <img
-                src={`./src/assets/img/new1.jpg`}
+                src={img1}
                 className="w-full"
                 alt=""
               />
@@ -70,7 +75,7 @@ export default function Latest() {
           <div className="  ">
             <div className="md:pr-14 pr-28 w-[450px] flex flex-col gap-5">
               <img
-                src={`./src/assets/img/new2.jpg`}
+                src={img2}
                 className="w-full"
                 alt=""
               />
@@ -82,7 +87,7 @@ export default function Latest() {
           <div className="  ">
             <div className="md:pr-14 pr-28 w-[450px] flex flex-col gap-5">
               <img
-                src={`./src/assets/img/new3.jpg`}
+                src={img3}
                 className="w-full"
                 alt=""
               />
@@ -94,7 +99,7 @@ export default function Latest() {
           <div className="  ">
             <div className="md:pr-14 pr-28 w-[450px] flex flex-col gap-5">
               <img
-                src={`./src/assets/img/new4.jpg`}
+                src={img4}
                 className="w-full"
                 alt=""
               />

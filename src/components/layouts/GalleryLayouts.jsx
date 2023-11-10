@@ -1,8 +1,15 @@
 import GalleryBodySection from "./GalleryBodySection";
 import { Card, Button } from "flowbite-react";
-import { BsArrowRightShort } from "react-icons/bs";
+import { FiArrowRight } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import mainImgGallery from "./../../assets/img/main-gallery.jpg"
+import client1 from "./../../assets/img/acel.png"
+import client2 from "./../../assets/img/acel.png"
+import client3 from "./../../assets/img/acel.png"
+import card1 from "./../../assets/img/gall1.jpg"
+import card2 from "./../../assets/img/gall2.jpg"
+import card3 from "./../../assets/img/kegiatan3.jpg"
 
 export default function GalleryLayouts({ children }) {
   return (
@@ -26,7 +33,7 @@ const GalleryHeader = () => {
             </h1>
           </div>
           <motion.img
-            src={`../src/assets/img/main-gallery.jpg`}
+            src={mainImgGallery}
             className="w-full"
             alt=""
             initial={{scale:0, opacity: 0 }}
@@ -94,7 +101,7 @@ const GalleryBody = () => {
             }}
         >
           <img
-            src={`../src/assets/img/acel.png`}
+            src={client1}
             className=" object-cover object-center absolute top-0"
             alt=""
           />
@@ -112,7 +119,7 @@ const GalleryBody = () => {
             }}
         >
           <img
-            src={`../src/assets/img/acel.png`}
+            src={client2}
             className=" object-cover object-center absolute top-0"
             alt=""
           />
@@ -130,7 +137,7 @@ const GalleryBody = () => {
             }}
         >
           <img
-            src={`../src/assets/img/acel.png`}
+            src={client3}
             className=" object-cover object-center absolute top-0"
             alt=""
           />
@@ -154,7 +161,7 @@ const GalleryBody = () => {
           >
           <Card
             imgAlt="Kerja Bakti, menanam Kacang di lahan perkebunan pelprap wilayah"
-            imgSrc="../src/assets/img/gall1.jpg"
+            imgSrc={card1}
             className="border-2 border-secondary2 shadow-secondary2 shadow-lg rounded-xl"
           >
             <div className="font-normal text-gray-700 dark:text-gray-400">
@@ -181,7 +188,7 @@ const GalleryBody = () => {
           >
           <Card
             imgAlt="Kerja Bakti, menanam Kacang di lahan perkebunan pelprap wilayah"
-            imgSrc="../src/assets/img/gall2.jpg"
+            imgSrc={card2}
             className="border-2 h-full border-secondary2 shadow-secondary2 shadow-lg rounded-xl"
           >
             <div className="font-normal text-gray-700 dark:text-gray-400">
@@ -206,7 +213,7 @@ const GalleryBody = () => {
           >
           <Card
             imgAlt="Kerja Bakti, menanam Kacang di lahan perkebunan pelprap wilayah"
-            imgSrc="../src/assets/img/kegiatan3.jpg"
+            imgSrc={card3}
             className="border-2 h-full border-secondary2 shadow-secondary2 shadow-lg rounded-xl"
           >
             <div className="font-normal text-gray-700 dark:text-gray-400">
@@ -224,7 +231,7 @@ const GalleryBody = () => {
           <Link to={"/agenda-kegiatan"}>
             <Button gradientDuoTone="purpleToBlue">
               <p>Lebih lengkap</p>
-              <BsArrowRightShort className="ml-2 h-5 w-5" />
+              <FiArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </Link>
         </div>

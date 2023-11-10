@@ -9,6 +9,8 @@ import { GoLocation } from "react-icons/go";
 import { motion } from "framer-motion";
 import { Button } from "flowbite-react";
 
+const location = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127629.38164103616!2d120.84709306333497!3d-1.517959319241869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d8f019742ba0349%3A0x6d677fdf8a51c38a!2sMatako%2C%20Kec.%20Tojo%20Bar.%2C%20Kabupaten%20Tojo%20Una-Una%2C%20Sulawesi%20Tengah!5e0!3m2!1sid!2sid!4v1698817036067!5m2!1sid!2sid"
+
 export default function ContactPage() {
   return (
     <>
@@ -128,7 +130,7 @@ export default function ContactPage() {
             >
               <iframe
                 className="w-full"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127629.38164103616!2d120.84709306333497!3d-1.517959319241869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d8f019742ba0349%3A0x6d677fdf8a51c38a!2sMatako%2C%20Kec.%20Tojo%20Bar.%2C%20Kabupaten%20Tojo%20Una-Una%2C%20Sulawesi%20Tengah!5e0!3m2!1sid!2sid!4v1698817036067!5m2!1sid!2sid"
+                src={location}
                 width="600"
                 height="450"
                 style={{ border: "0" }}

@@ -3,6 +3,8 @@ import { HiBars3BottomRight } from "react-icons/hi2";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
+import brandImg from "../../src/assets/img/logo.jpg"
+
 let tabs = [
   {
     id: 1,
@@ -61,7 +63,7 @@ export default function Navbar({ type }) {
           }`}
         >
           <img
-            src={`./src/assets/img/logo.jpg`}
+            src={brandImg}
             className={`md:rounded-ss-[23px] rounded-ss-[17px] md:rounded-ee-[23px] rounded-ee-[17px] transition-all ease-in-out duration-300  ${
               onScroll
                 ? "md:w-16 w-12 shadow-md border border-gray-200"

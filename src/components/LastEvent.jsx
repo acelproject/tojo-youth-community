@@ -1,10 +1,13 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
+import defaultImg from "./../assets/img/gall1.jpg"
+import img2 from "./../assets/img/gall2.jpg"
+import img3 from "./../assets/img/gall3.jpg"
 
 export default function LastEvent (){
 
   const [upCommingImg, setUpCommingImg] = useState(
-    "./src/assets/img/gall1.jpg"
+    defaultImg
   );
   const [cardUpCommingClick, setCardUpCommingClick] = useState(1);
 
@@ -55,7 +58,7 @@ export default function LastEvent (){
                   ease: "easeIn",
                   duration: 1,
                 }}
-                  src={`./src/assets/img/gall${cardUpCommingClick}.jpg`}
+                  src={defaultImg}
                   className="w-full md:rounded-none md:rounded-br-[50px] md:rounded-tl-[50px] rounded-t-md"
                   alt=""
                 />
@@ -72,7 +75,7 @@ export default function LastEvent (){
                   ease: "easeIn",
                   duration: 1,
                 }}
-                  src={`./src/assets/img/gall${cardUpCommingClick}.jpg`}
+                  src={img2}
                   className="w-full md:rounded-none md:rounded-br-[50px] md:rounded-tl-[50px] rounded-t-md"
                   alt=""
                 />
@@ -89,7 +92,7 @@ export default function LastEvent (){
                   ease: "easeIn",
                   duration: 1,
                 }}
-                  src={`./src/assets/img/gall${cardUpCommingClick}.jpg`}
+                  src={img3}
                   className="w-full md:rounded-none md:rounded-br-[50px] md:rounded-tl-[50px] rounded-t-md"
                   alt=""
                 />

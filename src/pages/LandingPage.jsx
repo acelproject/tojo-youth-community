@@ -8,6 +8,7 @@ import GalleryFoto from "../components/fragments/GalleryFoto";
 import Footer from "../components/Footer";
 import Latest from "../components/Latest";
 import { motion } from "framer-motion";
+import imgQuotes from "./../assets/img/acel.png"
 
 export default function LandingPage() {
   return (
@@ -62,7 +63,7 @@ export default function LandingPage() {
               }}
             >
               <img
-                src={`../src/assets/img/acel.png`}
+                src={imgQuotes}
                 className="w-24 mx-auto md:mb-0  mb-5"
                 alt=""
               />
@@ -94,7 +95,7 @@ export default function LandingPage() {
                 <p className="font-semibold">- Marchel Lumimpah -</p>
               </div>
               <img
-                src={`../src/assets/img/acel.png`}
+                src={imgQuotes}
                 className="w-24 mx-auto md:order-2 order-1 md:mb-0  mb-5"
                 alt=""
               />
@@ -119,7 +120,7 @@ export default function LandingPage() {
                 <p className="font-semibold">- Marchel Lumimpah -</p>
               </div>
               <img
-                src={`../src/assets/img/acel.png`}
+                src={imgQuotes}
                 className="w-24 mx-auto md:order-2 order-1 md:mb-0  mb-5"
                 alt=""
               />
