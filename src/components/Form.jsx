@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { useRef } from "react";
 import { useEffect } from "react";
-import { CiMobile2 } from "react-icons/Ci";
+import { CiMobile2 } from "react-icons/ci";
 import { Button } from "flowbite-react";
 import Input from "./elements/input/Input";
 import FormLayouts from "./layouts/FormLayouts";

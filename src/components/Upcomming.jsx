@@ -1,4 +1,4 @@
-import { BsArrowRightShort } from "react-icons/Bs";
+import { BsArrowRightShort } from "react-icons/bs";
 import { motion } from "framer-motion";
 import TestDetail from "./elements/detail";
 import { useState } from "react";

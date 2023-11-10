@@ -1,6 +1,6 @@
 import GalleryBodySection from "./GalleryBodySection";
 import { Card, Button } from "flowbite-react";
-import { BsArrowRightShort } from "react-icons/Bs";
+import { BsArrowRightShort } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 

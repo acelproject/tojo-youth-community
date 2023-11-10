@@ -1,6 +1,6 @@
 import { TbBrandYoutubeFilled } from "react-icons/tb";
-import { BiLogoInstagramAlt } from "react-icons/Bi";
-import { FaFacebookSquare } from "react-icons/Fa";
+import { BiLogoInstagramAlt } from "react-icons/bi";
+import { FaFacebookSquare } from "react-icons/fa";
 import { Button } from "flowbite-react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
