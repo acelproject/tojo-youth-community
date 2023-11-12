@@ -53,3 +53,8 @@ nav li a:hover::after {
   @apply focus:ring-4 focus:ring-blue-200 focus:outline-none focus:border-primary transition duration-200 bg-gray-300;
 }
 
+.vid-banner::after{
+  @apply w-full h-full block left-0 top-0  absolute bg-gradient-to-t from-mydark via-mydark/80 to-mydark;
+  content:"";
+}
+

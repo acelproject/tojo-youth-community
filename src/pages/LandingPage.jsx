@@ -10,6 +10,7 @@ import Latest from "../components/Latest";
 import { motion } from "framer-motion";
 import imgQuotes from "./../assets/img/acel.png"
 
+
 export default function LandingPage() {
   return (
     <>
