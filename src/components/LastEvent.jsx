@@ -13,7 +13,7 @@ export default function LastEvent (){
 
   const handleClick = (id) => {
     setCardUpCommingClick(id);
-    setUpCommingImg(`./src/assets/img/gall${id}.jpg`);
+    // setUpCommingImg(`./src/assets/img/gall${id}.jpg`);
   };
     return(
         <>
@@ -173,7 +173,7 @@ export default function LastEvent (){
               </motion.div>
             </div>
 
-            {/* <div className="flex gap-10 mt-10 mx-auto md:hidden">
+            <div className="flex gap-10 mt-10 mx-auto md:hidden">
               <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
@@ -222,7 +222,7 @@ export default function LastEvent (){
               >
                 3
               </motion.div>
-            </div> */}
+            </div>
           </div>
         </>
     )

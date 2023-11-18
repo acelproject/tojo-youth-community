@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function AboutLayouts({}) {
   return (
-    <div className="md:w-full w-12/12 mt-16 md:mx-auto ">
+    <div className="md:w-full w-12/12 md:mt-5 mt-0 md:mx-auto ">
       <div className="mx-auto md:w-10/12 w-12/12">
         <div className="flex justify-center text-center mb-3 w-12/12">
           <div className="p-5 md:w-10/12 w-full mx-auto">

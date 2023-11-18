@@ -46,7 +46,7 @@ const imgs =[
 export default function GalleryFoto() {
   return (
     <>
-      <div className="gallery md:flex flex-wrap w-10/12 rounded-br-[80px] rounded-tl-[80px] overflow-hidden mx-auto mt-12">
+      <div className="gallery md:flex flex-wrap md:w-10/12 w-12/12 rounded-br-[80px] rounded-tl-[80px] overflow-hidden mx-auto mt-12">
         
         {imgs.map((img)=>(
           <motion.div
